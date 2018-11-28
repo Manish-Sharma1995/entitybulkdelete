@@ -1,0 +1,34 @@
+entity.entitybulkdelete:
+  title: Delete Entity
+  route_name: entity.entitybulkdelete
+  description: Bulk deletion of entity.
+  parent: system.admin_structure
+  weight: 100
+
+users.entitybulkdelete:
+  title: 'Delete users'
+  route_name: users.entitybulkdelete
+  description: Bulk deletion of users.
+  parent: entity.entitybulkdelete
+  weight: 1
+
+terms.entitybulkdelete:
+  title: 'Delete terms'
+  route_name: terms.entitybulkdelete
+  description: Bulk deletion of terms.
+  parent: entity.entitybulkdelete
+  weight: 2
+
+nodes.entitybulkdelete:
+  title: 'Delete nodes'
+  route_name: nodes.entitybulkdelete
+  description: Bulk deletion of nodes.
+  parent: entity.entitybulkdelete
+  weight: 3
+
+comments.entitybulkdelete:
+  title: 'Delete comments'
+  route_name: comments.entitybulkdelete
+  description: Bulk deletion of comments.
+  parent: entity.entitybulkdelete
+  weight: 4  

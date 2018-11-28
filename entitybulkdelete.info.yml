@@ -1,0 +1,5 @@
+name: 'Entity Bulk Delete'
+type: 'module'
+description: "Delete the entities in bulk."
+package: "Entity Bulk Delete"
+core: 8.x

@@ -1,0 +1,39 @@
+entity.entitybulkdelete:
+  path: '/admin/structure/entity'
+  defaults:
+    _title: 'Delete Entity'
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+  requirements:
+    _permission: 'view  entitybulkdelete'
+
+users.entitybulkdelete:
+  path: '/admin/structure/entity/users'
+  defaults:
+    _title: 'Delete users'
+    _form: '\Drupal\entitybulkdelete\Form\BulkDeleteUsersForm'
+  requirements:
+    _permission: 'view  entitybulkdelete'
+
+terms.entitybulkdelete:
+  path: '/admin/structure/entity/terms'
+  defaults:
+    _title: 'Delete terms'
+    _form: '\Drupal\entitybulkdelete\Form\BulkDeleteTermsForm'
+  requirements:
+    _permission: 'view  entitybulkdelete'
+
+nodes.entitybulkdelete:
+  path: '/admin/structure/entity/nodes'
+  defaults:
+    _title: 'Delete nodes'
+    _form: '\Drupal\entitybulkdelete\Form\BulkDeleteNodesForm'
+  requirements:
+    _permission: 'view  entitybulkdelete'
+
+comments.entitybulkdelete:
+  path: '/admin/structure/entity/comments'
+  defaults:
+    _title: 'Delete comments'
+    _form: '\Drupal\entitybulkdelete\Form\BulkDeleteCommentsForm'
+  requirements:
+    _permission: 'view  entitybulkdelete'
